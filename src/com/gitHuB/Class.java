@@ -2,13 +2,17 @@ package com.gitHuB;
 
 public class Class {
 	public static void B() {
-		System.out.println("print B");
+		System.out.println("B");
 
 	}
 
 	public void C() {
-		System.out.println("print C");
+		System.out.println("C");
 
+	}
+    public void siva() {
+    	System.out.println("Happy Sunday");
+		
 	}
 	
 
@@ -17,6 +21,7 @@ public class Class {
 
 		Class obj = new Class();
 		obj.C();
+		obj.siva();
 
 	}
 
